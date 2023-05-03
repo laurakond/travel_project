@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* Code for header */
+
+.header {
+    overflow: hidden;
+    padding: 10px;
+    background-color: white;
+    }
+    
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    line-height: 25px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-weight: 100; 
+   }
+  
+   .header-right {
+    float: right;
+   }
+    
+  .header a.logo {
+      font-family: 'Rubik', sans-serif;
+      padding: 10px;
+      font-weight: bold;
+      font-size: 30px;
+      color: darkslategrey;
+   }
+    
+    .header-right a:hover {
+      background-color: whitesmoke;
+      color: black;
+      font-family: 'Rubik', sans-serif;
+    }
+    
+    .header a.active {
+      color: black;
+      font-family: 'Rubik', sans-serif;
+      background-color: whitesmoke;
+    }
+
+
+
+body {font-family: 'Times New Roman', Times, serif;}
+* {box-sizing: border-box;}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+button {
+  background-color: #0465AA;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #595A5E;
+}
+.container {
+  border-radius: 10px;
+  background-color: #F2F2F2;
+  padding: 20px;
+}
+.header {
+  overflow: hidden;
+  padding: 10px;
+  background-color: whitesmoke;
+  }
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  line-height: 25px;
+  font-family: Rubik, sans-serif;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-weight: 100;
+  }
+.header a.logo {
+  font-family: Rubik, sans-serif;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  color: darkslategrey;
+}
+.header-right a:hover {
+  background-color: whitesmoke;
+  color: black;
+  font-family: Rubik, sans-serif;
+}
+.header a.active {
+  color: black;
+  font-family: Rubik, sans-serif;
+  background-color: whitesmoke;
+}
+.header-right {
+  float: right;
+}
+
+
+/* Code for footer */
+
+.footertitle {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+    }
+
+  .insta {
+    height: 30px;
+    width: auto;
+    padding: 10px;
+  }
+
+  .facebook {
+    height: 30px;
+    width: auto;
+    padding: 10px;
+  }
+
+  .linkedin {
+    height: 30px;
+    width: auto;
+    padding: 10px;
+  }
+
+  .email:hover {
+    color: orangered;
+  }
+
+  .social {
+    opacity: 70%;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: whitesmoke;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+  }
+
+  .footertitle {
+    color: royalblue;
+    padding: 10px;
+  }
+
+  .footercontent a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .footercontent a:hover {
+    text-decoration: none;
+  }
+  
+  .footerbanner {
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 190px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 25px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+   }
+
+   li {
+    list-style-type: none;
+  }
+
+  .footertitle-2 {
+    font-weight: bold;
+  }
+    
+  .logo {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: darkslategrey;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+
+  .column li {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    line-height: 20px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
+    font-weight: 100; 
+   }
+
+   .column a:hover {
+    color: red;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  /* Media */
+  @media screen and (max-width: 800px) {
+ 
+    .header-right {
+      width: 200px;
+      display: inline-block;
+      text-align: right;
+    }
+  }
+
+
+/* .flex-footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  color: rgb(156, 151, 151);
+  letter-spacing: 3px;
+}
+@media screen and (max-width: 1200px) {
+  .flex-footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 3px;
+  padding-top: 40px;
+ }
+}
+.footer-left {
+  text-align: center;
+  padding-right: 100px;
+}
+@media screen and (max-width: 1200px) {
+  .footer-left {
+  text-align: center;
+  width: 100%;
+  padding: 0;
+ }
+}
+.footer-left a.logo {
+  font-size: 25px;
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  color:darkslategrey;
+  text-align: center;
+}
+.footer-left a:hover {
+  color: rgb(159, 155, 155);
+}
+.footer-center {
+  padding-top: 26px;
+}
+@media screen and (max-width: 1200px) {
+  .footer-center {
+  width: 100%;
+  padding: 0;
+ }
+}
+.footer-center p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.footer-left {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 180px;
+}
+@media screen and (max-width: 1200px) {
+  .footer-left {
+  text-align: center;
+  width: 200%;
+  padding: 0;
+ }
+} */

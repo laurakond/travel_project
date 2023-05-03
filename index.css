@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  font-family:'Rubik', sans-serif;
+}
+
+/* Code for banner */
+
+.title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 130px;
+    text-align: center;
+    padding-top: 300px;
+    font-weight: bold;
+    color: white;
+}
+
+.slogan {
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.mainheading {
+    text-align: center;
+    background-attachment: scroll;
+}
+
+.banner {
+    background-image: url(https://images.unsplash.com/photo-1522075782449-e45a34f1ddfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+}
+
+/* Code for header */
+
+.header {
+  overflow: hidden;
+  padding: 10px;
+  background-color: white;
+  }
+  
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  line-height: 25px;
+  font-family: 'Rubik', sans-serif;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-weight: 100; 
+ }
+
+ .header-right {
+  float: right;
+ }
+  
+.header a.logo {
+    font-family: 'Rubik', sans-serif;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: darkslategrey;
+ }
+  
+  .header-right a:hover {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .header a.active {
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    background-color: whitesmoke;
+  }
+
+  /* Main body text */
+ 
+  .intro {
+    margin: 50px;
+    padding: 20px;
+  }
+  .introtitle {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+
+  .introtext {
+    font-size: 20px;
+    /* font-family: Georgia, 'Times New Roman', Times, sans-serif; */
+    font-family: 'Mulish', sans-serif;
+  }
+  
+  /* Code for footer */
+
+  .footertitle {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+    }
+
+  .insta {
+    height: 30px;
+    width: auto;
+    padding: 10px;
+  }
+
+  .facebook {
+    height: 30px;
+    width: auto;
+    padding: 10px;
+  }
+
+  .linkedin {
+    height: 30px;
+    width: auto;
+    padding: 10px;
+  }
+
+  .email:hover {
+    color: orangered;
+  }
+
+  .social {
+    opacity: 70%;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: whitesmoke;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+  }
+
+  .footertitle {
+    color: royalblue;
+    padding: 10px;
+  }
+
+  .footercontent a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .footercontent a:hover {
+    text-decoration: none;
+  }
+  
+  .footerbanner {
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 190px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 25px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+   }
+
+   li {
+    list-style-type: none;
+  }
+
+  .footertitle-2 {
+    font-weight: bold;
+  }
+    
+  .logo {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: darkslategrey;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+
+  .column li {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    line-height: 20px;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
+    font-weight: 100; 
+   }
+
+   .column a:hover {
+    color: red;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  /* Media */
+  @media screen and (max-width: 800px) {
+ 
+    .header-right {
+      width: 200px;
+      display: inline-block;
+      text-align: right;
+    }
+  }
+
